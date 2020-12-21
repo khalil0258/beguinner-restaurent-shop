@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.container{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.container2{
+   
+    width: 1300px;
+    margin: 0 auto;
+}
+.container3{
+    width: 700px;
+    margin: 0 auto;
+}
+/* start of slider1*/
+.slider1{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(34, 47, 62,0.3),rgba(34, 47, 62,0.5)),url(1.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navebar{
+    width: 100%;
+    margin-top: 0;
+    height: 60px;
+    background-color: rgba(44, 58, 71,2.0);
+}
+.navebar ul{
+    text-align: center;}
+.navebar ul li {
+    display: inline-block;
+    margin: 20px 30px;
+    list-style: none;
+} 
+.navebar ul li a {
+    color: #d2dae2;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.slider1 .heading{
+    text-align: center;
+    position: relative;
+   top: 250px;
+}
+.slider1 .heading h1{
+    color: white;
+    font-size: 60px;
+     letter-spacing: 5px;
+    line-height: 40px;
+}
+/*end of slider1*/
+/*start of slider2*/
+.slider2{
+    height: 270px;
+    width: 100%;
+    text-align: center;
+    
+}
+.slider2 h3{ 
+color: rgba(44, 58, 71,2.0);
+margin-top: 90px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-transform: inherit;
+line-height: 30px;}
+.slider2 h4{
+    color: dimgray;
+    font-size: 14px;
+}
+.slider2 button{
+    margin-top: 40px;
+    background-color:rgba(34, 47, 62,2.0);
+    color: white;
+    letter-spacing: 3px;
+    padding: 10px auto;
+    font-size: 12px;
+    font-family: serif;
+    font-weight: 550;
+    width: 220px;
+    height: 40px;
+    border: none;
+}
+/*end of slider2*/
+/*start of slider3*/
+.slider3{
+    height: 290px;
+    width: 100%;
+    background-color:#dcdde1;
+    text-align: center;
+    overflow: hidden;
+}
+.slider3 h3{
+    color: #2f3640;
+    margin-top: 40px;
+    font-size: 29px;
+    font-weight: 550;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    
+}
+.slider3 p{
+    text-transform: lowercase;
+    font-size: 13px;
+    color:#353b48;
+    margin-top: 45px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.slider3 button{
+    height: 47px;
+    font-size: 17px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    width: 220px;
+    font-weight: 600;
+    border: 2px solid #3ae374;
+    border-radius: 30px;
+    padding: 18px auto;
+    margin-top: 35px;
+}
+.slider3 button:active{
+    border: none;
+}
+/*end of slider3*/
+/* start of piccontainer*/
+.piccontainer{
+    height: 270px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.piccontainer > div{
+    float: left;
+    width:25%;
+    height: 100%;
+    overflow: hidden;
+ 
+}
+.piccontainer > div img{
+    width: 100%;
+    height: 100%;
+   
+}
+/*end of piccontainer*/
+/*start of slider4*/
+.slider4{
+    height: 340px;
+    width: 100%;
+    background: linear-gradient(rgba(75, 75, 75,0.5),rgba(75, 75, 75,0.5)),url("6.jpg");
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.slider4 h1{
+    letter-spacing: 2px;
+    font-family:serif;
+    padding-top: 80px;
+    color: white;
+}
+.slider4 h2{
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+    margin-top: 30px;
+}
+.slider4 button{
+    margin-top: 50px;
+    width: 130px;
+    height: 43px;
+    border-radius: 35px;
+    color: black;
+    padding: 10px auto;
+    font-size: 13px;
+    font-weight: 550;
+    border: none;
+    background-color: white;
+}
+
+/* end of slider4*/
+/*start of footer*/
+.footer{
+    height: 550px;
+    width: 100%;
+    background-color: #3d3d3d;
+    color:white;
+    text-align: left;
+    overflow: hidden;
+}
+.footer .container2 >div{
+    width: 33.33%;
+    height: 70%;
+    margin-top: 50px;
+    float: left;
+   margin-bottom: 30px;
+    
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.footer .container2 >div p{
+    width: 80%;
+    font-size: 16px;
+}
+.footer .container2 >div hr{
+    width: 85%;
+    margin-top: 8px;
+  
+border:none;
+    background-color: #4b4b4b;
+}
+.footer .container2 >div h2{
+    margin-bottom: 30px;
+  
+}
+.footer .container2 >div h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer .container2 hr{
+    width: 100%;
+    height: 2px;
+    margin-top: 60px;
+    background-color: #4b4b4b;
+    border: none;
+}
+.footer .container2 ul{
+    float: right;
+    margin-top: 30px;
+}
+.footer .container2 ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 40px;
+}
+.footer .container2 ul li a{
+    color: #d2dae2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*end of footer*/
