@@ -1,3 +1,3 @@
-well hi,
-that my second repository,
-this   website is for restaurant shop
+#well hi,
+
+#this   website is for restaurant shop
